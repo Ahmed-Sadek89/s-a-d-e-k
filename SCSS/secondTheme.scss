@@ -1,0 +1,38 @@
+@import 'variables';
+@import 'basics';
+
+.firstTheme{
+    background-color: $bg-theme2;
+    color: $white
+}
+.secondTheme{
+    background-color: $bg-theme1;
+    color: $dark;
+}
+
+.navbar{
+    @extend .firstTheme;
+    .collapse-close{
+        @extend .secondTheme;
+    }
+}
+.home{
+    @extend .firstTheme;
+}
+.major{
+    @extend .firstTheme;
+}
+.projects{
+    @extend .firstTheme;
+    .project{
+        border: $border-thinkness dashed $bg-theme1;
+        .overlay{
+            .info-overlay{
+                @extend .secondTheme;
+            }
+        }
+    }
+}
+.contact{
+    @extend .secondTheme
+}

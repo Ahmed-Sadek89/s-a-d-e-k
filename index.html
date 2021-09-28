@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "icon" type = "image/jpg" href = "./images/ahmed-sadek.jpg">
+    <!-- icons -->
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <!-- icons -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/secondTheme.css" id='mainStyle'>
+    <title>S A D E K</title>
+</head>
+<body >
+    <!-- start navbar -->
+    <section class='navbar p-t-2 p-b-2'>
+        <div class='container '>
+            <div class='row justify-space-between'>
+                <a href='index.html' id='brand' class='brand font-lg'>
+                    <span class="font-bold">ahmed</span>
+                    <span class="font-regular">sadek</span>
+                </a>
+                <div class='right font-lg'>
+                    <span id='themeIcons'>
+                        <i class='bx bxs-sun' id='whiteTheme'></i>
+                        <i class='bx bxs-moon d-none' id='darkTheme'></i>
+                    </span>
+                    <span><i class='bx bx-list-ul' id='list' ></i></span>
+                </div>
+                <div class='collapse-close' id='collapse'>
+                    <div class='p-t-1'>
+                        <a href='#home' class='p-b-1 p-l-1 font-regular list-selected' link>home</a>
+                        <a href='#major' class='p-b-1 p-l-1 font-regular' link>major skills</a>
+                        <a href='#minor' class='p-b-1 p-l-1 font-regular' link>minor skills</a>
+                        <a href='#projects' class='p-b-1 p-l-1 font-regular' link>projects</a>
+                        <a href='#contact' class='p-b-1 p-l-1 font-regular' link>contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end navbar -->
+
+    <!-- start home -->
+    <section class='home p-b-5' id='home'>
+        <div class='container'>
+            <div class='row row-reverse'>
+                <div class='col-xs-12 col-lg-6'>
+                    <div class='home-info '>
+                        <div class='hello m-b-1'>
+                            <p class='font-xxl font-bold'>
+                                hello, 
+                            </p>
+                            <p class='font-xxl font-bold'>
+                                i am ahmed sadek
+                            </p>
+                            <div class='bg-content font-md font-regular job-title p-l-1'>
+                                front end developer
+                            </div>
+                        </div>
+                        <p>
+                            I work in front-end web development, 
+                            and I have experience in dealing with programming and modern web technologies, 
+                            and I have built a lot of projects that have increased my experience and trained a lot, 
+                            I am a fast learner and always love to develop myself
+                        </p>
+                        <div class='links p-t-1'>
+                            <!-- fetching links using AJAX -->
+                        </div>
+                    </div>
+                </div>
+                <div class='col-xs-12 col-lg-6'>
+                    <div class='img-content'>
+                        <img src='./images/ahmed-sadek.jpg' alt='Ahmed Sadek' />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end home -->
+
+    <!-- start major skills -->
+    <section class='major p-t-2 p-b-2' id='major'>
+        <div class='container'>
+            <h2 class='bg-content title p-1 b-radius-md text-center'>Major skills</h2>
+            <div class='row gap-1' id='majorSkills'>
+                <!-- fetching majorSkills using AJAX -->
+            </div>
+        </div>
+    </section >
+    <!-- end major skills -->
+
+    <!-- start minor skills -->
+    <section class='major p-t-2 p-b-2' id='minor'>
+        <div class='container'>
+            <h2 class='bg-content title p-1 b-radius-md text-center'>Minor skills</h2>
+            <div class='row gap-1' id='minorSkills'>
+                <!-- fetching minorSkills using AJAX -->
+            </div>
+        </div>
+    </section>
+    <!-- end major skills -->
+    
+    <!-- start projects -->
+    <section class='projects p-t-2 p-b-2' id='projects'>
+        <div class='container'>
+            <h2 class='bg-content title p-1 b-radius-md text-center'>projects</h2>
+            <div class="row gap-1" id='AllProjects'>
+                <!-- fetching projects using AJAX -->
+            </div>
+        </div>
+    </section>
+    <!-- end portfolio -->
+
+    <!-- start contact -->
+    <section class="contact p-t-3 p-b-1" id="contact">
+        <div class="container text-center">
+            <h1 class='font-bold font-xl'>AHMED SADEK</h1>
+            <div class='p-t-1 p-b-1 font-xl' id='socialMedia'>
+                <a target='_blank' href='#' class='p-r-1' title='asas'>
+                    <i class='bx bxl-facebook-square'></i>
+                </a>
+                <a target='_blank' href='#' class='p-r-1' title='asas'>
+                    <i class='bx bxl-facebook-square'></i>
+                </a>
+                <a target='_blank' href='#' class='p-r-1' title='asas'>
+                    <i class='bx bxl-facebook-square'></i>
+                </a>
+                <!-- fetching my social-media using AJAX -->
+            </div>
+            <div class="p-t-1 p-b-1 font-md" id='callMe'>
+                <p class='m-b-1'>
+                    <i class='bx bxs-phone-call m-r-1 '></i>
+                    <span>0121 275 8221</span>
+                </p>
+                <p class='m-b-1'>
+                    <i class='bx bxs-phone-call m-r-1'></i>
+                    <span>0121 275 8221</span>
+                </p>
+                <!-- fetching call-me using AJAX -->
+            </div>
+            <p class='font-sm'>© 2021 copyright all right reserved</p>
+        </div>
+    </section>
+    <!-- end contact -->
+
+    <script type='module' src='javaScript/index.js'></script>
+</body>
+</html>

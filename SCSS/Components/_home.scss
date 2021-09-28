@@ -1,0 +1,79 @@
+.home{
+    overflow: hidden;
+    padding-top: $padding * 15;
+    .row-reverse{
+        @include xs{
+            flex-direction: column-reverse;
+        }
+        @include lg{
+            flex-direction: row;
+        }
+        
+    }
+    .home-info{
+        .hello{
+            line-height: 1;
+            p{
+                @include xs{
+                    font-size: $font-size * 1.5
+                }
+                @include md{
+                    font-size: $font-size * 2
+                }
+                @include lg{
+                    font-size: $font-size * 3
+                }
+            }
+            .job-title{
+                max-width: fit-content;
+                padding: $padding * 0.5;
+            }
+        }
+        .links{
+            a{
+                transition: $transition;
+                &:hover {
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+    .img-content{
+        overflow: hidden;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        border-radius: 100%;
+        border : $border-thinkness * 8 solid $bg-content;
+        transition: $transition;
+        @include xs{
+            margin: 0px $margin * 4;
+            margin-bottom: $margin * 2;
+            height: 25vh;
+            width: 25vh;
+        }
+        @include sm{
+            margin: 0px $margin * 4;
+            margin-bottom: $margin * 2;
+            height: 50vh;
+            width: 50vh;    
+        }
+        @include md{
+            margin: 0px $margin * 8;
+            margin-bottom: $margin * 2;
+        }
+        @include lg{
+            margin-left: $margin * 8  ;
+        }
+        @include xl{
+            margin-left: $margin * 8 * 2  ;
+        }
+       
+        &:hover{
+            
+                border : $border-thinkness solid $bg-content;
+            
+        }
+    
+    }
+}

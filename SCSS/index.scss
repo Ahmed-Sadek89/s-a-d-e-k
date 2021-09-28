@@ -1,0 +1,12 @@
+// here all standards
+@import 'variables';
+@import 'basics';
+@import 'utilities';
+@import 'mediaQueries';
+@import 'grid';
+
+// here all components
+@import 'Components/navbar';
+@import 'Components/home';
+@import 'Components/majorSkills';
+@import 'Components/projects';

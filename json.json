@@ -1,0 +1,235 @@
+{
+    "Links": [
+        {
+            "id": 0,
+            "link": "https://github.com/Ahmed-Sadek89",
+            "title": "GitHub",
+            "icon": "bx bxl-github"
+        },
+        {
+            "id": 1,
+            "link": "https://www.linkedin.com/in/ahmed-sadek-2b27541b9/",
+            "title": "LinkedIn",
+            "icon": "bx bxl-linkedin-square"
+        },
+        {
+            "id": 2,
+            "link": "https://drive.google.com/file/d/1tFmD3n7RvEQfaY9sTWvGKrQfBvAT1z0e/view",
+            "title": "Resume",
+            "icon": "bx bxs-file"
+        }
+    ],
+    "MajorSkills": [
+        {
+            "id": 0,
+            "title": "HTML",
+            "icon": "bx bxl-html5"
+        },
+        {
+            "id": 1,
+            "title": "CSS",
+            "icon": "bx bxl-css3"
+        },
+        {
+            "id": 2,
+            "title": "JavaScript/ ES6",
+            "icon": "bx bxl-javascript"
+        },
+        {
+            "id": 3,
+            "title": "jQuery",
+            "icon": "bx bxl-jquery"
+        },
+        {
+            "id": 4,
+            "title": "Bootstrap 3/ 4/ 5",
+            "icon": "bx bxl-bootstrap"
+        },
+        {
+            "id": 5,
+            "title": "AJAX & Axios",
+            "icon": "bx bx-transfer"
+        },
+        {
+            "id": 6,
+            "title": "JSON & Api",
+            "icon": "bx bx-code-curly"
+        },
+        {
+            "id": 7,
+            "title": "Unit Testing( Jest )",
+            "icon": "bx bxs-right-top-arrow-circle"
+        },
+        {
+            "id": 8,
+            "title": "Adobe Photoshop",
+            "icon": "bx bxl-adobe"
+        },
+        {
+            "id": 9,
+            "title": "SASS",
+            "icon": "bx bxl-sass"
+        },
+        {
+            "id": 10,
+            "title": "Pug js",
+            "icon": "bx bxs-right-top-arrow-circle"
+        },
+        {
+            "id": 11,
+            "title": "Gulp",
+            "icon": "bx bxs-right-top-arrow-circle"
+        },
+        {
+            "id": 12,
+            "title": "React",
+            "icon": "bx bxl-react"
+        },
+        {
+            "id": 13,
+            "title": "React Native",
+            "icon": "bx bxl-react"
+        },
+        {
+            "id": 14,
+            "title": "Redux",
+            "icon": "bx bxl-redux"
+        },
+        {
+            "id": 15,
+            "title": "Material UI",
+            "icon": "bx bxs-right-top-arrow-circle"
+        },
+        {
+            "id": 16,
+            "title": "git/ github",
+            "icon": "bx bxl-github"
+        },
+        {
+            "id": 17,
+            "title": "React-Query",
+            "icon": "bx bx-transfer"
+        }
+    ],
+    "MinorSkills": [
+        {
+            "id": 0,
+            "title": "PHP",
+            "icon": "bx bxl-php"
+        },
+        {
+            "id": 1,
+            "title": "Laravel",
+            "icon": "bx bxs-right-top-arrow-circle"
+        },
+        {
+            "id": 2,
+            "title": "MySQL",
+            "icon": "bx bxs-data"
+        },
+        {
+            "id": 3,
+            "title": "Node js",
+            "icon": "bx bxl-nodejs"
+        },
+        {
+            "id": 4,
+            "title": "Firebase",
+            "icon": "bx bxl-firebase"
+        },
+        {
+            "id": 5,
+            "title": "C++",
+            "icon": "bx bxl-c-plus-plus"
+        },
+        {
+            "id": 6,
+            "title": "Java",
+            "icon": "bx bxs-right-top-arrow-circle"
+        },
+        {
+            "id": 7,
+            "title": "Adobe  Illustrator",
+            "icon": "bx bxl-adobe"
+        },
+        {
+            "id": 8,
+            "title": "Typescript",
+            "icon": "bx bxs-right-top-arrow-circle"
+        },
+        {
+            "id": 9,
+            "title": "UI Kit ",
+            "icon": "bx bxs-right-top-arrow-circle"
+        }
+    ],
+    "Projects": [
+        {
+            "id": 0,
+            "title": "ENTERTAINTMENT HUB",
+            "image": "./images/entertainmentHub.png",
+            "preview": "https://hardcore-payne-a18805.netlify.app/",
+            "github": "https://github.com/Ahmed-Sadek89/ENTERTAINMENT_APP"
+        },
+        {
+            "id": 1,
+            "title": "E_Commerce App",
+            "image": "./images/E_Commerce App.png",
+            "preview": "https://dreamy-lichterman-cc9cdf.netlify.app/",
+            "github": "https://github.com/Ahmed-Sadek89/E_Commerce_react"
+        },
+        {
+            "id": 2,
+            "title": "TODO LIST",
+            "image": "./images/TODO.png",
+            "preview": "https://ahmed-sadek89.github.io/TODO_List-VanillaJS/",
+            "github": "https://github.com/Ahmed-Sadek89/TODO_List-VanillaJS"
+        },
+        {
+            "id": 3,
+            "title": "SELECAO",
+            "image": "./images/Selecao.png",
+            "preview": "https://ahmed-sadek89.github.io/Selecao/",
+            "github": "https://github.com/Ahmed-Sadek89/Selecao"
+        },
+        {
+            "id": 4,
+            "title": "AXIT",
+            "image": "./images/AXIT.png",
+            "preview": "https://ahmed-sadek89.github.io/AXIT/",
+            "github": "https://github.com/Ahmed-Sadek89/AXIT"
+        }
+    ],
+    "socialMedia": [
+        {
+            "id": 0,
+            "link": "https://wsend.co/201212758221",
+            "title": "whatsapp",
+            "icon": "bx bxl-whatsapp"
+        },
+        {
+            "id": 1,
+            "link": "https://www.facebook.com/ahmed.sadek.374",
+            "title": "facebook",
+            "icon": "bx bxl-facebook"
+        },
+        {
+            "id": 2,
+            "link": "https://www.linkedin.com/in/ahmed-sadek-2b27541b9/",
+            "title": "LinkedIn",
+            "icon": "bx bxl-linkedin"
+        }
+    ],
+    "call_me": [
+        {
+            "id": 0,
+            "icon": "bx bxs-phone-call",
+            "number": "03 5015918"
+        },
+        {
+            "id": 1,
+            "icon": "bx bxs-phone-call",
+            "number": "0121 275 8221"
+        }
+    ]
+}

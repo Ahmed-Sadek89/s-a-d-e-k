@@ -1,0 +1,64 @@
+%layouts{
+    @include xs{
+        font-size: $font-size;
+    }
+    @include md{
+        font-size: $font-size-lg;
+    }
+}
+.navbar{
+    box-shadow: $box-shadow;
+    position: fixed;
+    width: 100%;
+    top:0px;
+    left: 0px;
+    z-index: 10;
+    .brand{
+        cursor: pointer;
+        @extend %layouts;
+    };
+    .right{
+        span i{
+            cursor: pointer;
+            padding: 0 $padding;
+            @extend %layouts;
+        }
+    }
+    .collapse-close{
+        position: absolute;
+        right: 0px;
+        top: 56px;
+        transition: $transition;
+        width: 0%;
+        overflow: hidden;  
+        height: 100vh; 
+        
+        div{
+            box-sizing: $box-sizing;
+            display: grid;
+            a{
+                cursor: pointer;
+                transition: $transition;
+                @include xs{
+                    font-size: $font-size;
+                }
+                @include md{
+                    font-size: $font-size-lg;
+                }
+                &:hover{
+                    color: $bg-content;
+                    padding-left: $padding * 2;
+                }
+            }
+        }
+    }
+    .collapse-open{
+        width: 50%;
+    }
+    .list-selected{
+        border-bottom: $border-thinkness solid $bg-content;
+        color: $bg-content;
+        font-weight: bolder;
+        padding-left: $padding * 2;
+    }
+}

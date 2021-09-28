@@ -1,0 +1,195 @@
+@use 'sass:math';
+
+$utilities: (
+    "padding":(
+        "prefix": "p",
+        "values": (
+            "0": 0,
+            "1": $padding,
+            "2": $padding * 2 ,
+            "3": $padding * 4 ,
+            "4": $padding * 6 ,
+            "5": $padding * 8 
+        ),
+    ),
+    "padding-top":(
+        "prefix": "p-t",
+        "values": (
+            "0": 0,
+            "1": $padding,
+            "2": $padding * 2 ,
+            "3": $padding * 4 ,
+            "4": $padding * 6 ,
+            "5": $padding * 8 
+        ),
+    ),
+    "padding-bottom":(
+        "prefix": "p-b",
+        "values": (
+            "0": 0,
+            "1": $padding,
+            "2": $padding * 2 ,
+            "3": $padding * 4 ,
+            "4": $padding * 6 ,
+            "5": $padding * 8 
+        ),
+    ),
+    "padding-left":(
+        "prefix": "p-l",
+        "values": (
+            "0": 0,
+            "1": $padding,
+            "2": $padding * 2 ,
+            "3": $padding * 4 ,
+            "4": $padding * 6 ,
+            "5": $padding * 8 
+        ),
+    ),
+    "padding-right":(
+        "prefix": "p-r",
+        "values": (
+            "0": 0,
+            "1": $padding,
+            "2": $padding * 2 ,
+            "3": $padding * 4 ,
+            "4": $padding * 6 ,
+            "5": $padding * 8 
+        ),
+    ),
+    "margin":(
+        "prefix": "m",
+        "values": (
+            "0": 0,
+            "1": $margin,
+            "2": $margin * 2 ,
+            "3": $margin * 4 ,
+            "4": $margin * 6 ,
+            "5": $margin * 8 
+        ),
+    ),
+    
+    "margin-top":(
+        "prefix": "m-t",
+        "values": (
+            "0": 0,
+            "1": $margin,
+            "2": $margin * 2 ,
+            "3": $margin * 4 ,
+            "4": $margin * 6 ,
+            "5": $margin * 8 
+        ),
+    ),
+    "margin-bottom":(
+        "prefix": "m-b",
+        "values": (
+            "0": 0,
+            "1": $margin,
+            "2": $margin * 2 ,
+            "3": $margin * 4 ,
+            "4": $margin * 6 ,
+            "5": $margin * 8 
+        ),
+    ),
+    "margin-left":(
+        "prefix": "m-l",
+        "values": (
+            "0": 0,
+            "1": $margin,
+            "2": $margin * 2 ,
+            "3": $margin * 4 ,
+            "4": $margin * 6 ,
+            "5": $margin * 8 
+        ),
+    ),
+    "margin-right":(
+        "prefix": "m-r",
+        "values": (
+            "0": 0,
+            "1": $margin,
+            "2": $margin * 2 ,
+            "3": $margin * 4 ,
+            "4": $margin * 6 ,
+            "5": $margin * 8 
+        ),
+    ),
+    "font-size":(
+        'prefix': "font",
+        "values": (
+            "sm": $font-size * 0.75,
+            "md": $font-size,
+            "lg": $font-size * 1.5,
+            "xl": $font-size * 2,
+            "xxl":$font-size * 3,
+        )
+    ),
+    "font-weight":(
+        'prefix': "font",
+        "values": (
+            "light": lighter,
+            "regular": inherit,
+            "bold": bolder,
+        )
+    ),
+    "background-color":(
+        'prefix': "bg",
+        "values": (
+            "white": $bg-theme1,
+            "dark": $bg-theme2,
+            "content": $bg-content,
+        )
+    ),
+    "color":(
+        'prefix': "text",
+        "values": (
+            "white": $white,
+            "dark": $dark,
+        )
+    ),
+    "text-align":(
+        "prefix": "text",
+        "values": (
+            "left": left,
+            "center": center,
+            "right": right
+        ) 
+    ),
+    "display":(
+        'prefix': "d",
+        "values": (
+            "none": $d-none,
+            "block": $d-block,
+        )
+    ),
+    "border-radius":(
+        'prefix': "b-radius",
+        "values": (
+            "default": $border-radius,
+            "none": 0,
+            "sm": math.div($border-radius, 0.75),
+            "md": math.div($border-radius, 1.5),
+            "lg": $border-radius * 2,
+            "full": 50%
+        )
+    ),
+);
+
+// #{$}
+@each $props, $map in $utilities{
+    $prefix: map-get($map, "prefix" );
+    $values: map-get($map, 'values');
+    
+    @each $key, $value in $values{
+        @if(#{$key} == 'default')
+        {
+            .#{$prefix}{
+                #{$props}: #{$value}
+            }
+        }
+        @else
+        {
+            .#{$prefix}-#{$key}{
+                #{$props}: #{$value}
+            }
+        }
+    }
+}

@@ -1,0 +1,41 @@
+// In Utilityes page  
+  // backgrounds
+    $bg-content: #bc648c; 
+    $bg-theme1: #f6f7f8; // antiquewhite #f6f7f8
+    $bg-theme2: #001E3C;
+
+    // colors
+    $dark: #001E3C;
+    $white: #f6f7f8;
+
+    // padding
+    $padding: 0.75rem;
+
+    // margin
+    $margin: 0.75rem;
+
+    // font-size
+    $font-size: 1rem;
+    $font-size-sm: $font-size * 0.75;
+    $font-size-lg: $font-size * 1.5;
+    $font-size-xl: $font-size * 2;
+    $font-size-xxl: $font-size * 3;
+
+    // displaying 
+    $d-none: none;
+    $d-block: block;
+
+    // borders-radius
+    $border-radius: 20px;
+
+
+// Not In Utilityes page  
+    // box-shadow & box-sizing
+    $box-sizing: border-box;
+    $box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+
+    // border-thinkness
+    $border-thinkness: 1px;
+
+    // transition
+    $transition: all 0.5s ease

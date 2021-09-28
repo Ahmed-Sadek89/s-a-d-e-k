@@ -1,0 +1,83 @@
+@use 'sass:math';
+ 
+$total-grid: 12;
+$gapping: (
+    "0": 0,
+    "1": 10px,
+    "2": 20px,
+    "3": 30px,
+);
+$justify: 'flex-start', 'flex-end', 'center', 'space-around', 'space-between', 'space-evenly';
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 20px;
+    margin: 0 auto;
+    box-sizing: $box-sizing;
+}
+.row{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+@include xs{
+    @for $i from 1 through $total-grid{
+        .col-xs-#{$i}{
+            box-sizing: $box-sizing;
+            flex-grow: 0;
+            width: math.div(100% * $i, $total-grid)
+        }
+    }
+}
+@include sm{
+    @for $i from 1 through $total-grid{
+        .col-sm-#{$i}{
+            box-sizing: $box-sizing;
+            flex-grow: 0;
+            width: math.div(100% * $i, $total-grid)
+        }
+    }
+}
+@include md{
+    @for $i from 1 through $total-grid{
+        .col-md-#{$i}{
+            box-sizing: $box-sizing;
+            flex-grow: 0;
+            width: math.div(100% * $i, $total-grid)
+        }
+    }
+}
+@include lg{
+    @for $i from 1 through $total-grid{
+        .col-lg-#{$i}{
+            box-sizing: $box-sizing;
+            flex-grow: 0;
+            width: math.div(100% * $i, $total-grid)
+        }
+    }
+}
+@include xl{
+    @for $i from 1 through $total-grid{
+        .col-xl-#{$i}{
+            box-sizing: $box-sizing;
+            flex-grow: 0;
+            width: math.div(100% * $i, $total-grid)
+        }
+    }
+}
+
+@each $key, $val in $gapping{
+    .gap-#{$key} > *{
+        padding: #{$val}
+    }
+    .gap-#{$key}{
+        margin: 0px -#{$val};
+      }
+}
+
+@each $val in $justify{
+    .justify-#{$val}{
+        justify-content: #{$val};
+    }
+}
