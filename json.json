@@ -205,7 +205,14 @@
             "image": "./images/Mobster.png",
             "preview": "https://ahmed-sadek89.github.io/mobster/",
             "github": "https://github.com/Ahmed-Sadek89/mobster"
-        }
+        },
+        {
+            "id": 6,
+            "title": "MEAL APP",
+            "image": "./images/meal_app.png",
+            "preview": "https://sadek-meal-app.netlify.app/",
+            "github": "https://github.com/Ahmed-Sadek89/meal_app"
+        },
     ],
     "socialMedia": [
         {
