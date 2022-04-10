@@ -61,6 +61,11 @@
             "icon": "bx bxs-right-top-arrow-circle"
         },
         {
+            "id": 7.5,
+            "title": "TailwindCSS",
+            "icon": "bx bxl-tailwind-css"
+        },
+        {
             "id": 8,
             "title": "Adobe Photoshop",
             "icon": "bx bxl-adobe"
@@ -212,7 +217,14 @@
             "image": "./images/meal_app.png",
             "preview": "https://sadek-meal-app.netlify.app/",
             "github": "https://github.com/Ahmed-Sadek89/meal_app"
-        }
+        },
+        {
+            "id": 7,
+            "title": "Bookmark",
+            "image": "./images/Bookmark.png",
+            "preview": "https://ahmed-sadek89.github.io/Bookmark/",
+            "github": "https://github.com/Ahmed-Sadek89/Bookmark"
+        },
     ],
     "socialMedia": [
         {
