@@ -224,6 +224,13 @@
             "image": "./images/Bookmark.png",
             "preview": "https://ahmed-sadek89.github.io/Bookmark/",
             "github": "https://github.com/Ahmed-Sadek89/Bookmark"
+        },
+        {
+            "id": 8,
+            "title": "PixelApp",
+            "image": "./images/pixel_app.png",
+            "preview": "https://dynamic-creponne-450a3c.netlify.app/",
+            "github": "https://github.com/Ahmed-Sadek89/pixel_App"
         }
     ],
     "socialMedia": [
