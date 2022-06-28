@@ -170,13 +170,6 @@
     ],
     "Projects": [
         {
-            "id": 0.1,
-            "title": "MERN Stack Shop",
-            "image": "./images/MERN1.png",
-            "preview": "https://www.youtube.com/watch?v=Jf-W0AD_ke4",
-            "github": "https://github.com/Ahmed-Sadek89/first-mern-stack-part2"
-        },
-        {
             "id": 0,
             "title": "ENTERTAINTMENT HUB",
             "image": "./images/entertainmentHub.png",
@@ -238,6 +231,13 @@
             "image": "./images/pixel_app.png",
             "preview": "https://dynamic-creponne-450a3c.netlify.app/",
             "github": "https://github.com/Ahmed-Sadek89/pixel_App"
+        },
+        {
+            "id": 9,
+            "title": "MERN Stack Shop",
+            "image": "./images/MERN1.png",
+            "preview": "https://www.youtube.com/watch?v=Jf-W0AD_ke4",
+            "github": "https://github.com/Ahmed-Sadek89/first-mern-stack-part2"
         }
     ],
     "socialMedia": [
