@@ -114,7 +114,37 @@
             "id": 17,
             "title": "React-Query",
             "icon": "bx bx-transfer"
-        }
+        },
+        {
+            "id":18,
+            "title": "Node js",
+            "icon": "bx bxl-nodejs"
+        },
+        {
+            "id": 19,
+            "title": "Express.js",
+            "icon": "bx bx-transfer"
+        },
+        {
+            "id": 20,
+            "title": "mongoDB",
+            "icon": "bx bxl-mongodb"
+        },
+        {
+            "id": 21,
+            "title": "JWT",
+            "icon": "bx bx-transfer"
+        },
+        {
+            "id": 22,
+            "title": "Passport.js",
+            "icon": "bx bx-transfer"
+        },
+        {
+            "id": 23,
+            "title": "Typescript",
+            "icon": "bx bxs-right-top-arrow-circle"
+        },
     ],
     "MinorSkills": [
         {
@@ -131,11 +161,6 @@
             "id": 2,
             "title": "MySQL",
             "icon": "bx bxs-data"
-        },
-        {
-            "id": 3,
-            "title": "Node js",
-            "icon": "bx bxl-nodejs"
         },
         {
             "id": 4,
@@ -156,11 +181,6 @@
             "id": 7,
             "title": "Adobe  Illustrator",
             "icon": "bx bxl-adobe"
-        },
-        {
-            "id": 8,
-            "title": "Typescript",
-            "icon": "bx bxs-right-top-arrow-circle"
         },
         {
             "id": 9,
