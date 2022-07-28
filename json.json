@@ -278,6 +278,13 @@
             "image": "./images/node-SSR-APP.png",
             "preview": "https://node-sadek.herokuapp.com/",
             "github": "https://github.com/Ahmed-Sadek89/node-App-SSR"
+        },
+        {
+            "id": 12,
+            "title": "Quiz_App React+TS",
+            "image": "./images/Quiz-App.png",
+            "preview": "https://aesthetic-platypus-26fd69.netlify.app/",
+            "github": "https://github.com/Ahmed-Sadek89/Quiz-App"
         }
     ],
     "socialMedia": [
