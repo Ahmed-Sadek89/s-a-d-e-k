@@ -150,6 +150,16 @@
             "id": 23,
             "title": "Typescript",
             "icon": "bx bxs-right-top-arrow-circle"
+        },
+        {
+            "id": 24,
+            "title": "Docker",
+            "icon": "bx bxl-docker"
+        },
+        {
+            "id": 25,
+            "title": "GraphQL",
+            "icon": "bx bx-cog"
         }
     ],
     "MinorSkills": [
