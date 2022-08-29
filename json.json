@@ -160,6 +160,16 @@
             "id": 25,
             "title": "GraphQL",
             "icon": "bx bx-cog"
+        },
+        {
+            "id": 26,
+            "title": "VUE.js",
+            "icon": "bx bx-vuejs"
+        },
+        {
+            "id": 27,
+            "title": "MySQL",
+            "icon": "bx bxs-data"
         }
     ],
     "MinorSkills": [
@@ -172,11 +182,6 @@
             "id": 1,
             "title": "Laravel",
             "icon": "bx bxs-right-top-arrow-circle"
-        },
-        {
-            "id": 2,
-            "title": "MySQL",
-            "icon": "bx bxs-data"
         },
         {
             "id": 4,
@@ -295,6 +300,13 @@
             "image": "./images/Quiz-App.png",
             "preview": "https://aesthetic-platypus-26fd69.netlify.app/",
             "github": "https://github.com/Ahmed-Sadek89/Quiz-App"
+        },
+        {
+            "id": 13,
+            "title": "VUE todo",
+            "image": "./images/VUE todo.png",
+            "preview": "https://vue-todo-inky-theta.vercel.app/",
+            "github": "https://github.com/Ahmed-Sadek89/vue---todo"
         }
     ],
     "socialMedia": [
