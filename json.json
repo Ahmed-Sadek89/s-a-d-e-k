@@ -307,6 +307,13 @@
             "image": "./images/VUE todo.png",
             "preview": "https://vue-todo-inky-theta.vercel.app/",
             "github": "https://github.com/Ahmed-Sadek89/vue---todo"
+        },
+        {
+            "id": 14,
+            "title": "VUE Local_Weather",
+            "image": "./images/Local_Weather.png",
+            "preview": "https://vue-weather-app-snowy.vercel.app/",
+            "github": "https://github.com/Ahmed-Sadek89/vue-weather-app"
         }
     ],
     "socialMedia": [
