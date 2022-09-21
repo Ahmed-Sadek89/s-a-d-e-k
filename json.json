@@ -299,6 +299,13 @@
             "image": "./images/Local_Weather.png",
             "preview": "https://vue-weather-app-snowy.vercel.app/",
             "github": "https://github.com/Ahmed-Sadek89/vue-weather-app"
+        },
+        {
+            "id": 15,
+            "title": "VUE Youtube Clone",
+            "image": "./images/Youtube-Clone.png",
+            "preview": "https://vue-youtube-clone-jskhn9r8u-ahmed-sadek89.vercel.app/",
+            "github": "https://github.com/Ahmed-Sadek89/vue-youtube-clone"
         }
     ],
     "socialMedia": [
