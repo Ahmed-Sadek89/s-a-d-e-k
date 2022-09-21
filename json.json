@@ -57,11 +57,6 @@
             "icon": "bx bx-transfer"
         },
         {
-            "id": 6,
-            "title": "JSON & Api",
-            "icon": "bx bx-code-curly"
-        },
-        {
             "id": 7,
             "title": "Unit Testing( Jest )",
             "icon": "bx bxs-right-top-arrow-circle"
@@ -117,11 +112,6 @@
             "icon": "bx bxl-github"
         },
         {
-            "id": 17,
-            "title": "React-Query",
-            "icon": "bx bx-transfer"
-        },
-        {
             "id":18,
             "title": "Node js",
             "icon": "bx bxl-nodejs"
@@ -138,12 +128,7 @@
         },
         {
             "id": 21,
-            "title": "JWT",
-            "icon": "bx bx-transfer"
-        },
-        {
-            "id": 22,
-            "title": "Passport.js",
+            "title": "JWT & Passport.js",
             "icon": "bx bx-transfer"
         },
         {
