@@ -306,6 +306,13 @@
             "image": "./images/Youtube-Clone.png",
             "preview": "https://vue-youtube-clone-jskhn9r8u-ahmed-sadek89.vercel.app/",
             "github": "https://github.com/Ahmed-Sadek89/vue-youtube-clone"
+        },
+        {
+            "id": 16,
+            "title": "Sadek Dashboard",
+            "image": "./images/Sadek_Dashboard.png",
+            "preview": "https://sadek-dashboard.vercel.app/",
+            "github": "https://github.com/Ahmed-Sadek89/dashboard-react-typescript"
         }
     ],
     "socialMedia": [
