@@ -59,8 +59,9 @@ myRequest.send();
 
 // Events
 const myEvents = new customEvent();
-const {makeEventOnPageTheme, makeEventOnCollapseToggle, makeEventOnItemsInCollapse} = myEvents;
+const {setTheme, makeEventOnPageTheme, makeEventOnCollapseToggle, makeEventOnItemsInCollapse} = myEvents;
 
+setTheme(lightIcon, darkIcon, mainStyle)
 // on themes change
 makeEventOnPageTheme(lightIcon, darkIcon, mainStyle);
 // on themes change

@@ -23,17 +23,29 @@
             "link": "https://www.youtube.com/channel/UC_-4DGHnJOs-qwME8Wxqeug",
             "title": "YouTube",
             "icon": "bx bxl-youtube"
+        },
+        {
+            "id": 4,
+            "link": "https://www.hackerrank.com/profile/ahmeamohamed161",
+            "title": "Hackerrank",
+            "icon": "bx bxs-barcode"
+        },
+        {
+            "id": 5,
+            "link": "https://leetcode.com/Ahmed-Sadek89/",
+            "title": "Leetcode",
+            "icon": "bx bx-code-block"
         }
     ],
     "MajorSkills": [
         {
             "id": 0,
-            "title": "HTML",
+            "title": "HTML / HTML5",
             "icon": "bx bxl-html5"
         },
         {
             "id": 1,
-            "title": "CSS",
+            "title": "CSS / CSS3",
             "icon": "bx bxl-css3"
         },
         {
@@ -89,11 +101,6 @@
         {
             "id": 12,
             "title": "React",
-            "icon": "bx bxl-react"
-        },
-        {
-            "id": 13,
-            "title": "React Native",
             "icon": "bx bxl-react"
         },
         {
@@ -155,6 +162,16 @@
             "id": 27,
             "title": "MySQL",
             "icon": "bx bxs-data"
+        },
+        {
+            "id": 28,
+            "title": "VUX",
+            "icon": "bx bxl-vuejs"
+        },
+        {
+            "id": 29,
+            "title": "Nextjs",
+            "icon": "bx bxs-right-top-arrow-circle"
         }
     ],
     "MinorSkills": [
@@ -192,127 +209,175 @@
             "id": 9,
             "title": "UI Kit ",
             "icon": "bx bxs-right-top-arrow-circle"
+        },
+        {
+            "id": 13,
+            "title": "React Native",
+            "icon": "bx bxl-react"
         }
     ],
     "Projects": [
         {
             "id": 0,
-            "title": "ENTERTAINTMENT HUB",
-            "image": "./images/entertainmentHub.png",
-            "preview": "https://hardcore-payne-a18805.netlify.app/",
-            "github": "https://github.com/Ahmed-Sadek89/ENTERTAINMENT_APP"
+            "title": "Blog",
+            "image": "./images/Lama blogpng.png",
+            "preview": "https://blog-frontend-react-iizq.vercel.app/",
+            "github": "https://github.com/Ahmed-Sadek89?tab=repositories&q=blog&type=&language=&sort="
         },
         {
             "id": 1,
-            "title": "E_Commerce App",
-            "image": "./images/E_Commerce App.png",
-            "preview": "https://dreamy-lichterman-cc9cdf.netlify.app/",
-            "github": "https://github.com/Ahmed-Sadek89/E_Commerce_react"
-        },
-        {
-            "id": 2,
-            "title": "TODO LIST",
-            "image": "./images/TODO.png",
-            "preview": "https://ahmed-sadek89.github.io/TODO_List-VanillaJS/",
-            "github": "https://github.com/Ahmed-Sadek89/TODO_List-VanillaJS"
-        },
-        {
-            "id": 3,
-            "title": "SELECAO",
-            "image": "./images/Selecao.png",
-            "preview": "https://ahmed-sadek89.github.io/Selecao/",
-            "github": "https://github.com/Ahmed-Sadek89/Selecao"
-        },
-        {
-            "id": 4,
-            "title": "AXIT",
-            "image": "./images/AXIT.png",
-            "preview": "https://ahmed-sadek89.github.io/AXIT/",
-            "github": "https://github.com/Ahmed-Sadek89/AXIT"
-        },
-        {
-            "id": 5,
-            "title": "Mobster",
-            "image": "./images/Mobster.png",
-            "preview": "https://ahmed-sadek89.github.io/mobster/",
-            "github": "https://github.com/Ahmed-Sadek89/mobster"
-        },
-        {
-            "id": 6,
-            "title": "MEAL APP",
-            "image": "./images/meal_app.png",
-            "preview": "https://sadek-meal-app.netlify.app/",
-            "github": "https://github.com/Ahmed-Sadek89/meal_app"
-        },
-        {
-            "id": 7,
-            "title": "Bookmark",
-            "image": "./images/Bookmark.png",
-            "preview": "https://ahmed-sadek89.github.io/Bookmark/",
-            "github": "https://github.com/Ahmed-Sadek89/Bookmark"
-        },
-        {
-            "id": 8,
-            "title": "PixelApp",
-            "image": "./images/pixel_app.png",
-            "preview": "https://dynamic-creponne-450a3c.netlify.app/",
-            "github": "https://github.com/Ahmed-Sadek89/pixel_App"
-        },
-        {
-            "id": 9,
             "title": "MERN Stack Shop",
             "image": "./images/MERN1.png",
             "preview": "https://frontend-simple-shop-react.vercel.app/",
             "github": "https://github.com/Ahmed-Sadek89/first-mern-stack-part2"
         },
         {
-            "id": 10,
+            "id": 2,
             "title": "Passport MERN",
             "image": "./images/Passport MERN.png",
             "preview": "https://passport-fronend-react.vercel.app/",
             "github": "https://github.com/Ahmed-Sadek89?tab=repositories&q=passport&type=&language=&sort="
         },
         {
-            "id": 11,
+            "id": 3,
             "title": "Node SSR_App",
             "image": "./images/node-SSR-APP.png",
             "preview": "https://node-sadek.herokuapp.com/",
             "github": "https://github.com/Ahmed-Sadek89/node-App-SSR"
         },
         {
-            "id": 12,
+            "id": 4,
+            "title": "Frontend mentor challenge 1",
+            "image": "./images/Frontend Mentor challenge 1.png",
+            "preview": "https://front-end-mentor-challenge-03-multistep-form.vercel.app/",
+            "github": "https://github.com/Ahmed-Sadek89/Front-End-Mentor-Challenge-03-multistep-form"
+        },
+        {
+            "id": 5,
+            "title": "Sadek Dashboard",
+            "image": "./images/Sadek_Dashboard.png",
+            "preview": "https://sadek-dashboard.vercel.app/",
+            "github": "https://github.com/Ahmed-Sadek89/dashboard-react-typescript"
+        },
+        {
+            "id": 6,
             "title": "Quiz_App React+TS",
             "image": "./images/Quiz-App.png",
             "preview": "https://aesthetic-platypus-26fd69.netlify.app/",
             "github": "https://github.com/Ahmed-Sadek89/Quiz-App"
         },
         {
-            "id": 13,
+            "id": 7,
             "title": "VUE todo",
             "image": "./images/VUE todo.png",
             "preview": "https://vue-todo-inky-theta.vercel.app/",
             "github": "https://github.com/Ahmed-Sadek89/vue---todo"
         },
         {
-            "id": 14,
+            "id": 8,
             "title": "VUE Local_Weather",
             "image": "./images/Local_Weather.png",
             "preview": "https://vue-weather-app-snowy.vercel.app/",
             "github": "https://github.com/Ahmed-Sadek89/vue-weather-app"
         },
         {
-            "id": 15,
+            "id": 9,
             "title": "VUE Youtube Clone",
             "image": "./images/Youtube-Clone.png",
-            "preview": "https://vue-youtube-clone-jskhn9r8u-ahmed-sadek89.vercel.app/",
+            "preview": "https://vue-youtube-clone.vercel.app/",
             "github": "https://github.com/Ahmed-Sadek89/vue-youtube-clone"
         },
         {
+            "id": 10,
+            "title": "VUEmovie",
+            "image": "./images/vue3_movie_apppng.png",
+            "preview": "https://vue-simple-movie-app.vercel.app/",
+            "github": "https://github.com/Ahmed-Sadek89/vue-simple-movie-app"
+        },
+        {
+            "id": 11,
+            "title": "ENTERTAINTMENT HUB",
+            "image": "./images/entertainmentHub.png",
+            "preview": "https://hardcore-payne-a18805.netlify.app/",
+            "github": "https://github.com/Ahmed-Sadek89/ENTERTAINMENT_APP"
+        },
+        {
+            "id": 12,
+            "title": "E_Commerce App",
+            "image": "./images/E_Commerce App.png",
+            "preview": "https://dreamy-lichterman-cc9cdf.netlify.app/",
+            "github": "https://github.com/Ahmed-Sadek89/E_Commerce_react"
+        },
+        {
+            "id": 13,
+            "title": "MEAL APP",
+            "image": "./images/meal_app.png",
+            "preview": "https://sadek-meal-app.netlify.app/",
+            "github": "https://github.com/Ahmed-Sadek89/meal_app"
+        },
+        {
+            "id": 14,
+            "title": "PixelApp",
+            "image": "./images/pixel_app.png",
+            "preview": "https://dynamic-creponne-450a3c.netlify.app/",
+            "github": "https://github.com/Ahmed-Sadek89/pixel_App"
+        },
+        {
+            "id": 15,
+            "title": "Frontend Mentor challenge 2",
+            "image": "./images/Frontend Mentor challenge 2.png",
+            "preview": "https://ahmed-sadek89.github.io/Front-End-Mentor-Challenge-02-ecommerce-product-page/",
+            "github": "https://github.com/Ahmed-Sadek89/Front-End-Mentor-Challenge-02-ecommerce-product-page"
+        },
+        {
             "id": 16,
-            "title": "Sadek Dashboard",
-            "image": "./images/Sadek_Dashboard.png",
-            "preview": "https://sadek-dashboard.vercel.app/",
-            "github": "https://github.com/Ahmed-Sadek89/dashboard-react-typescript"
+            "title": "Frontend Mentor challenge 3",
+            "image": "./images/Frontend Mentor challenge 3.png",
+            "preview": "https://ahmed-sadek89.github.io/sunnyside-agency-landing-page/",
+            "github": "https://github.com/Ahmed-Sadek89/sunnyside-agency-landing-page"
+        },
+        {
+            "id": 17,
+            "title": "Frontend Mentor challenge 4",
+            "image": "./images/Frontend Mentor challenge 4.png",
+            "preview": "https://ahmed-sadek89.github.io/Front-End-Mentor-Challenge-01-results-summary-component/",
+            "github": "https://github.com/Ahmed-Sadek89/Front-End-Mentor-Challenge-01-results-summary-component"
+        },
+        {
+            "id": 18,
+            "title": "Bookmark",
+            "image": "./images/Bookmark.png",
+            "preview": "https://ahmed-sadek89.github.io/Bookmark/",
+            "github": "https://github.com/Ahmed-Sadek89/Bookmark"
+        },
+        {
+            "id": 19,
+            "title": "SELECAO",
+            "image": "./images/Selecao.png",
+            "preview": "https://ahmed-sadek89.github.io/Selecao/",
+            "github": "https://github.com/Ahmed-Sadek89/Selecao"
+        },
+        {
+            "id": 20,
+            "title": "AXIT",
+            "image": "./images/AXIT.png",
+            "preview": "https://ahmed-sadek89.github.io/AXIT/",
+            "github": "https://github.com/Ahmed-Sadek89/AXIT"
+        },
+        
+        {
+            "id": 21,
+            "title": "Mobster",
+            "image": "./images/Mobster.png",
+            "preview": "https://ahmed-sadek89.github.io/mobster/",
+            "github": "https://github.com/Ahmed-Sadek89/mobster"
+        },
+        {
+            "id": 22,
+            "title": "TODO LIST",
+            "image": "./images/TODO.png",
+            "preview": "https://ahmed-sadek89.github.io/TODO_List-VanillaJS/",
+            "github": "https://github.com/Ahmed-Sadek89/TODO_List-VanillaJS"
         }
     ],
     "socialMedia": [
