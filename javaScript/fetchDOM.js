@@ -11,11 +11,23 @@ class fetchDOM{
         DOMElement.innerHTML = `<p class='font-xl font-bold' style='color: red'>error 404</p>`
     }
 
-    getLinks = (dataInJSON, DOMElement) => {
+    getSocialLinks = (dataInJSON, DOMElement) => {
         let mapping = dataInJSON.map(elem => {
             return `
             <a target='_blank' href='${elem.link}' class='p-r-1 font-xxl' title='${elem.title}'>
                 <i class='${elem.icon}'></i>
+            </a>
+            `
+        })
+        DOMElement.innerHTML = mapping.join("") // to convert mapping from array to string, then remove ','
+    }
+
+    getProblemSolvingLinks = (dataInJSON, DOMElement) => {
+        let mapping = dataInJSON.map(elem => {
+            return `
+            <a target='_blank' href='${elem.link}' class='p-r-1 font-xxl' title='${elem.title}'>
+                <i class='${elem.icon}'></i>
+                <img src='${elem.image}' alt='${elem.title}' />
             </a>
             `
         })

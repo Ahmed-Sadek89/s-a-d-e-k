@@ -1,20 +1,21 @@
 class customEvent {
   constructor() {}
   setTheme(lightIcon, darkIcon, mainStyle) {
-    if (localStorage.getItem("Theme") === "dark") {
-      lightIcon.classList.toggle("d-none");
-      darkIcon.classList.toggle("d-none");
+    if (localStorage.getItem("theme") === "dark") {
+      lightIcon.classList.remove("d-none");
+      darkIcon.classList.add("d-none");
       mainStyle.setAttribute("href", "css/secondTheme.css");
-    } else {
-      lightIcon.classList.toggle("d-none");
-      darkIcon.classList.toggle("d-none");
+    } 
+    if (localStorage.getItem("theme") === "light")  {
+      lightIcon.classList.add("d-none");
+      darkIcon.classList.remove("d-none");
       mainStyle.setAttribute("href", "css/firstTheme.css");
     }
   }
   makeEventOnPageTheme = (lightIcon, darkIcon, mainStyle) => {
     darkIcon.addEventListener("click", () => {
-      lightIcon.classList.toggle("d-none");
-      darkIcon.classList.toggle("d-none");
+      lightIcon.classList.remove("d-none");
+      darkIcon.classList.add("d-none");
       mainStyle.setAttribute("href", "css/secondTheme.css");
       localStorage.setItem("theme", "dark");
     });

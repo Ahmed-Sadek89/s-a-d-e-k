@@ -1,5 +1,5 @@
 {
-    "Links": [
+    "social_links": [
         {
             "id": 0,
             "link": "https://github.com/Ahmed-Sadek89",
@@ -23,19 +23,22 @@
             "link": "https://www.youtube.com/channel/UC_-4DGHnJOs-qwME8Wxqeug",
             "title": "YouTube",
             "icon": "bx bxl-youtube"
-        },
+        }
+    ],
+    "problem_solving_links": [
         {
-            "id": 4,
+            "id": 1,
             "link": "https://www.hackerrank.com/profile/ahmeamohamed161",
             "title": "Hackerrank",
-            "icon": "bx bxs-barcode"
+            "image": "./images/hackerrank-icon-filled.png"
         },
         {
-            "id": 5,
+            "id": 2,
             "link": "https://leetcode.com/Ahmed-Sadek89/",
             "title": "Leetcode",
-            "icon": "bx bx-code-block"
+            "image": "./images/LeetCode_logo_black.webp"
         }
+
     ],
     "MajorSkills": [
         {
@@ -130,7 +133,7 @@
         },
         {
             "id": 20,
-            "title": "mongoDB",
+            "title": "MongoDB",
             "icon": "bx bxl-mongodb"
         },
         {
