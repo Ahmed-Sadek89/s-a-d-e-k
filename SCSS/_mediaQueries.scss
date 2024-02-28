@@ -33,28 +33,3 @@ $media: (
         @content;
     }
 };
-
-// TESTING
-// .container{
-//     @include xs{
-//         background-color: $bg-yellow;
-//         color: $white;
-//         padding-left: $padding;
-//         padding-right: $padding;
-//         transition: $transition;
-//     }
-//     @include sm{
-//         background-color: $bg-theme1;
-//         color: $dark;
-//         padding-left: $padding;
-//         padding-right: $padding;
-//         transition: $transition;
-//     }
-//     @include md{
-//         background-color: $bg-theme2;
-//         color: $white;
-//         padding-left: $padding;
-//         padding-right: $padding;
-//         transition: $transition;
-//     }
-// }

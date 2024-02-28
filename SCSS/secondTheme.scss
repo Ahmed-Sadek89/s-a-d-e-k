@@ -16,6 +16,12 @@
         @extend .secondTheme;
     }
 }
+.window-overlay {
+    background: $bg-theme2;
+    .sk-folding-cube .sk-cube:before {
+        background-color: $bg-theme1;
+    }
+}
 .home{
     @extend .firstTheme;
 }

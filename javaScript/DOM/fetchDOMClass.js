@@ -3,10 +3,6 @@ class FetchDOM{
         
     }
 
-    loadingData = (DOMElement) => {
-        DOMElement.innerHTML = `<p class='font-lg font-bold'>loading..., reload the page if necessary</p>`
-    }
-
     errorFetching = (DOMElement) => {
         DOMElement.innerHTML = `<p class='font-xl font-bold' style='color: red'>error 404</p>`
     }
@@ -26,8 +22,8 @@ class FetchDOM{
         let mapping = dataInJSON.map(elem => {
             return `
             <a target='_blank' href='${elem.link}' class='p-r-1 font-xxl' title='${elem.title}'>
-                <i class='${elem.icon}'></i>
                 <img src='${elem.image}' alt='${elem.title}' />
+                <span>${elem.title}</div>
             </a>
             `
         })

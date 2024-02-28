@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "icon" type = "image/jpg" href = "./images/ahmed-sadek.jpg">
+    <link rel="icon" type="image/jpg" href="./images/ahmed-sadek.jpg">
     <!-- icons -->
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <!-- icons -->
@@ -12,11 +13,23 @@
     <link rel="stylesheet" href="css/secondTheme.css" id='mainStyle'>
     <title>Ahmed Sadek | أْحْمَدْ صَادِقْ</title>
 </head>
-<body >
+
+<body>
+    <!-- start loading overlay -->
+    <section class="window-overlay">
+        <div class="sk-folding-cube">
+            <div class="sk-cube1 sk-cube"></div>
+            <div class="sk-cube2 sk-cube"></div>
+            <div class="sk-cube4 sk-cube"></div>
+            <div class="sk-cube3 sk-cube"></div>
+        </div>
+    </section>
+    <!-- start loading overlay -->
+
     <!-- start navbar -->
     <section class='navbar p-t-2 p-b-2'>
         <div class='container '>
-            <div class='row justify-space-between'>
+            <div class='row justify-space-between' style="align-items: center;">
                 <a href='index.html' id='brand' class='brand font-lg'>
                     <span class="font-bold">ahmed</span>
                     <span class="font-regular">sadek</span>
@@ -30,7 +43,7 @@
                         <i class='bx bxs-sun' id='whiteTheme'></i>
                         <i class='bx bxs-moon d-none' id='darkTheme'></i>
                     </span>
-                    <span><i class='bx bx-list-ul' id='list' ></i></span>
+                    <span><i class='bx bx-list-ul' id='list'></i></span>
                 </div>
                 <div class='collapse-close' id='collapse'>
                     <div class='p-t-1'>
@@ -54,7 +67,7 @@
                     <div class='home-info '>
                         <div class='hello m-b-1'>
                             <p class='font-xxl font-bold'>
-                                Hello, 
+                                Hello,
                             </p>
                             <p class='font-xxl font-bold'>
                                 I am Ahmed Sadek
@@ -62,27 +75,27 @@
                             <div class='bg-content font-md font-regular job-title p-l-1'>
                                 Frontend developer
                             </div>
-                            <br/>
+                            <br />
                             <div class='bg-content font-md font-regular job-title p-l-1'>
                                 Backend developer
                             </div>
-                            <br/>
+                            <br />
                             <div class='bg-content font-md font-regular job-title p-l-1'>
                                 MERN Stack developer
                             </div>
-                            <br/>
+                            <br />
                             <div class='bg-content font-md font-regular job-title p-l-1'>
                                 Problem Solver
                             </div>
-                            <br/>
+                            <br />
                             <div class='bg-content font-md font-regular job-title p-l-1'>
-                               And Mathematics Lover
+                                And Mathematics Lover
                             </div>
                         </div>
                         <p>
-                            I work in web development, 
-                            and I have experience in dealing with programming and modern web technologies, 
-                            and I have built a lot of projects that have increased my experience and trained a lot, 
+                            I work in web development,
+                            and I have experience in dealing with programming and modern web technologies,
+                            and I have built a lot of projects that have increased my experience and trained a lot,
                             I am a fast learner and always love to develop myself
                         </p>
                         <div class='social-links p-t-1'>
@@ -111,7 +124,7 @@
                 <!-- fetching majorSkills using AJAX -->
             </div>
         </div>
-    </section >
+    </section>
     <!-- end major skills -->
 
     <!-- start minor skills -->
@@ -124,7 +137,7 @@
         </div>
     </section>
     <!-- end major skills -->
-    
+
     <!-- start projects -->
     <section class='projects p-t-2 p-b-2' id='projects'>
         <div class='container'>
@@ -170,4 +183,5 @@
 
     <script type='module' src='javaScript/index.js'></script>
 </body>
+
 </html>

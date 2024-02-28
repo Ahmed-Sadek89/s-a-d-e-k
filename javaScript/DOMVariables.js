@@ -9,6 +9,7 @@ export const collapse = document.getElementById('collapse');
 export const allLinks = document.querySelectorAll('[link]');
 
 // parentDOM Before Fetehing
+export const overlayDOM = document.querySelector('.window-overlay');
 export const socialMediaLinksGroupDOM = document.querySelector('.social-links');
 export const problemSolvingLinksGroupDOM = document.querySelector('.problem-solving-links');
 export const majorSkillsDOM = document.getElementById('majorSkills');

@@ -1,5 +1,5 @@
+import { overlayDOM } from '../DOMVariables.js';
 import fetchDOMSuccess from './FetchDOMSuccess.js';
-import fetchDOMPending from './fetchDOMPending.js';
 import fetchDOMReject from './fetchDOMReject.js';
 
 export default function makeAPICall() {
@@ -7,8 +7,8 @@ export default function makeAPICall() {
     myRequest.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
             fetchDOMSuccess(this.response)
-        } else if (this.readyState < 4) {
-            fetchDOMPending()
+            overlayDOM.remove()
+            document.querySelector('body').setAttribute('style', "overflow-y: scroll")
         }
         else {
             fetchDOMReject()

@@ -9,7 +9,12 @@
     background-color: $bg-theme2;
     color: $white
 }
-
+.window-overlay {
+    background: $bg-theme1;
+    .sk-folding-cube .sk-cube:before {
+        background-color: $bg-theme2;
+    }
+}
 .navbar{
     @extend .firstTheme;
     .collapse-close{
