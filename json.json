@@ -37,6 +37,12 @@
             "link": "https://leetcode.com/Ahmed-Sadek89/",
             "title": "Leetcode",
             "image": "./images/LeetCode_logo_black.webp"
+        },
+        {
+            "id": 3,
+            "link": "https://www.frontendmentor.io/profile/Ahmed-Sadek89",
+            "title": "Frontend Mentor",
+            "image": "./images/frontend-mentor-logo.png"
         }
 
     ],
