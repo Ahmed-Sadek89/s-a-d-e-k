@@ -9,7 +9,6 @@ export default function makeAPICall() {
         if (this.readyState === 4 && this.status === 200) {
             let toJSObject = JSON.parse(this.response)
             const DOMfunction = new FetchDOM();
-
             DOMfunction.getSocialLinks(toJSObject.social_links, DOMVariable.socialMediaLinksGroupDOM);
             DOMfunction.getProblemSolvingLinks(toJSObject.problem_solving_links, DOMVariable.problemSolvingLinksGroupDOM);
             DOMfunction.getSkills(toJSObject.MajorSkills, DOMVariable.majorSkillsDOM);
