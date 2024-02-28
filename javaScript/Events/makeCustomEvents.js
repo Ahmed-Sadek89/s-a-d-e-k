@@ -7,7 +7,7 @@ export default function makeCustomEvent() {
     myEvents.setTheme(variables.lightIcon, variables.darkIcon, variables.mainStyle)
     myEvents.makeEventOnPageTheme(variables.lightIcon, variables.darkIcon, variables.mainStyle);
     myEvents.makeEventOnCollapseToggle(variables.listToggle, variables.collapse);
-    myEvents.allLinks.forEach(link => {
+    variables.allLinks.forEach(link => {
         myEvents.makeEventOnItemsInCollapse(link, variables.allLinks);
     })
 }
