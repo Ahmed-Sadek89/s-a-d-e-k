@@ -1,4 +1,4 @@
-class fetchDOM{
+class FetchDOM{
     constructor(){
         
     }
@@ -102,4 +102,4 @@ class fetchDOM{
     }
 }
 
-export default fetchDOM;
+export default FetchDOM;

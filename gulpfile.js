@@ -7,12 +7,12 @@ task('sass', () => {
     return src('SCSS/**/*.scss')
         .pipe(sass({outputStyle: 'compressed'}))
         .pipe(prefix('last 4 versions'))
-        .pipe(purgecss({content: ['*.html', 'javaScript/*.js']}))
+        .pipe(purgecss({content: ['*.html', 'javaScript/*.js', 'javaScript/**/*.js']}))
         .pipe(dest('css'))
 });
 
 task('watch', () => {
-    watch(['SCSS/**/*.scss', '*.html', 'javaScript/*.js'], series('sass'))
+    watch(['SCSS/**/*.scss', '*.html', 'javaScript/*.js', 'javaScript/**/*.js'], series('sass'))
 });
 
 exports.default = series('watch')
