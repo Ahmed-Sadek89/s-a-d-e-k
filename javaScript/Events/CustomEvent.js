@@ -1,12 +1,11 @@
-class customEvent {
-  constructor() {}
+class CustomEvent {
   setTheme(lightIcon, darkIcon, mainStyle) {
     if (localStorage.getItem("theme") === "dark") {
       lightIcon.classList.remove("d-none");
       darkIcon.classList.add("d-none");
       mainStyle.setAttribute("href", "css/secondTheme.css");
-    } 
-    if (localStorage.getItem("theme") === "light")  {
+    }
+    if (localStorage.getItem("theme") === "light") {
       lightIcon.classList.add("d-none");
       darkIcon.classList.remove("d-none");
       mainStyle.setAttribute("href", "css/firstTheme.css");
@@ -49,4 +48,4 @@ class customEvent {
   };
 }
 
-export default customEvent;
+export default CustomEvent;

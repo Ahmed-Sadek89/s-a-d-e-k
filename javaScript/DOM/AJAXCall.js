@@ -2,7 +2,7 @@ import fetchDOMSuccess from './FetchDOMSuccess.js';
 import fetchDOMPending from './fetchDOMPending.js';
 import fetchDOMReject from './fetchDOMReject.js';
 
-export default function call() {
+export default function makeAPICall() {
     let myRequest = new XMLHttpRequest();
     myRequest.onreadystatechange = function () {
         if (this.readyState === 4 && this.status === 200) {
