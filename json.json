@@ -57,12 +57,12 @@
                 {
                     "id": 1,
                     "title": "Typescript",
-                    "icon": "bx bxl-typescript"
+                    "icon": "bx bxs-right-top-arrow-circle"
                 },
                 {
                     "id": 2,
                     "title": "Java",
-                    "icon": "bx bxl-java"
+                    "icon": "bx bxs-right-top-arrow-circle"
                 }
             ]
         },
@@ -242,11 +242,6 @@
             "id": 5,
             "title": "C++",
             "icon": "bx bxl-c-plus-plus"
-        },
-        {
-            "id": 6,
-            "title": "Java",
-            "icon": "bx bxs-right-top-arrow-circle"
         },
         {
             "id": 7,
