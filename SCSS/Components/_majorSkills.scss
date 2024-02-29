@@ -4,8 +4,11 @@
         margin: $margin * 2 auto $margin * 4 auto;
     }
 
-    ;
-
+    .skills {
+        box-shadow: $box-shadow;
+        display: flex;
+        flex-direction: row;
+    }
     .accordion {
         box-shadow: $box-shadow;
 
