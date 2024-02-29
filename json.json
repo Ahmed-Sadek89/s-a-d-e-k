@@ -44,143 +44,182 @@
             "title": "Frontend Mentor",
             "image": "./images/frontend-mentor-logo.png"
         }
-
     ],
     "MajorSkills": [
         {
-            "id": 0,
-            "title": "HTML / HTML5",
-            "icon": "bx bxl-html5"
+            "skillsTitle": "programming languages",
+            "skillsContent": [
+                {
+                    "id": 0,
+                    "title": "JavaScript/ ES6",
+                    "icon": "bx bxl-javascript"
+                },
+                {
+                    "id": 1,
+                    "title": "Typescript",
+                    "icon": "bx bxl-typescript"
+                },
+                {
+                    "id": 2,
+                    "title": "Java",
+                    "icon": "bx bxl-java"
+                }
+            ]
         },
         {
-            "id": 1,
-            "title": "CSS / CSS3",
-            "icon": "bx bxl-css3"
+            "skillsTitle": "web technologies",
+            "skillsContent": [
+                {
+                    "id": 0,
+                    "title": "HTML / HTML5",
+                    "icon": "bx bxl-html5"
+                },
+                {
+                    "id": 1,
+                    "title": "CSS / CSS3",
+                    "icon": "bx bxl-css3"
+                },
+                {
+                    "id": 2,
+                    "title": "AJAX & Axios",
+                    "icon": "bx bx-transfer"
+                },
+                {
+                    "id": 3,
+                    "title": "Unit Testing( Jest )",
+                    "icon": "bx bxs-right-top-arrow-circle"
+                },
+                {
+                    "id": 4,
+                    "title": "SASS",
+                    "icon": "bx bxl-sass"
+                },
+                {
+                    "id": 5,
+                    "title": "Pug js",
+                    "icon": "bx bxs-right-top-arrow-circle"
+                }
+            ]
         },
         {
-            "id": 2,
-            "title": "JavaScript/ ES6",
-            "icon": "bx bxl-javascript"
+            "skillsTitle": "Libraries/ Frameworks",
+            "skillsContent": [
+                {
+                    "id": 0,
+                    "title": "jQuery",
+                    "icon": "bx bxl-jquery"
+                },
+                {
+                    "id": 1,
+                    "title": "Bootstrap 3/ 4/ 5",
+                    "icon": "bx bxl-bootstrap"
+                },
+                {
+                    "id": 2,
+                    "title": "TailwindCSS",
+                    "icon": "bx bxl-tailwind-css"
+                },
+                {
+                    "id": 3,
+                    "title": "Material UI",
+                    "icon": "bx bxs-right-top-arrow-circle"
+                },
+                {
+                    "id": 4,
+                    "title": "React",
+                    "icon": "bx bxl-react"
+                },
+                {
+                    "id": 5,
+                    "title": "Redux",
+                    "icon": "bx bxl-redux"
+                },
+                {
+                    "id": 6,
+                    "title": "VUE.js",
+                    "icon": "bx bxl-vuejs"
+                },
+                {
+                    "id": 7,
+                    "title": "VUX",
+                    "icon": "bx bxl-vuejs"
+                },
+                {
+                    "id": 8,
+                    "title": "Nextjs",
+                    "icon": "bx bxs-right-top-arrow-circle"
+                }
+            ]
         },
         {
-            "id": 3,
-            "title": "jQuery",
-            "icon": "bx bxl-jquery"
+            "skillsTitle": "Backend Skills",
+            "skillsContent": [
+                {
+                    "id": 0,
+                    "title": "Node js",
+                    "icon": "bx bxl-nodejs"
+                },
+                {
+                    "id": 1,
+                    "title": "Express.js",
+                    "icon": "bx bx-transfer"
+                },
+                {
+                    "id": 2,
+                    "title": "JWT & Passport.js",
+                    "icon": "bx bx-transfer"
+                }
+            ]
         },
         {
-            "id": 4,
-            "title": "Bootstrap 3/ 4/ 5",
-            "icon": "bx bxl-bootstrap"
+            "skillsTitle": "Backend Skills",
+            "skillsContent": [
+                {
+                    "id": 0,
+                    "title": "MongoDB",
+                    "icon": "bx bxl-mongodb"
+                },
+                {
+                    "id": 1,
+                    "title": "MySQL",
+                    "icon": "bx bxs-data"
+                },
+                {
+                    "id": 3,
+                    "title": "Firebase",
+                    "icon": "bx bxl-firebase"
+                }
+            ]
         },
         {
-            "id": 5,
-            "title": "AJAX & Axios",
-            "icon": "bx bx-transfer"
-        },
-        {
-            "id": 7,
-            "title": "Unit Testing( Jest )",
-            "icon": "bx bxs-right-top-arrow-circle"
-        },
-        {
-            "id": 7.5,
-            "title": "TailwindCSS",
-            "icon": "bx bxl-tailwind-css"
-        },
-        {
-            "id": 8,
-            "title": "Adobe Photoshop",
-            "icon": "bx bxl-adobe"
-        },
-        {
-            "id": 9,
-            "title": "SASS",
-            "icon": "bx bxl-sass"
-        },
-        {
-            "id": 10,
-            "title": "Pug js",
-            "icon": "bx bxs-right-top-arrow-circle"
-        },
-        {
-            "id": 11,
-            "title": "Gulp",
-            "icon": "bx bxs-right-top-arrow-circle"
-        },
-        {
-            "id": 12,
-            "title": "React",
-            "icon": "bx bxl-react"
-        },
-        {
-            "id": 14,
-            "title": "Redux",
-            "icon": "bx bxl-redux"
-        },
-        {
-            "id": 15,
-            "title": "Material UI",
-            "icon": "bx bxs-right-top-arrow-circle"
-        },
-        {
-            "id": 16,
-            "title": "git/ github",
-            "icon": "bx bxl-github"
-        },
-        {
-            "id":18,
-            "title": "Node js",
-            "icon": "bx bxl-nodejs"
-        },
-        {
-            "id": 19,
-            "title": "Express.js",
-            "icon": "bx bx-transfer"
-        },
-        {
-            "id": 20,
-            "title": "MongoDB",
-            "icon": "bx bxl-mongodb"
-        },
-        {
-            "id": 21,
-            "title": "JWT & Passport.js",
-            "icon": "bx bx-transfer"
-        },
-        {
-            "id": 23,
-            "title": "Typescript",
-            "icon": "bx bxs-right-top-arrow-circle"
-        },
-        {
-            "id": 24,
-            "title": "Docker",
-            "icon": "bx bxl-docker"
-        },
-        {
-            "id": 25,
-            "title": "GraphQL",
-            "icon": "bx bx-cog"
-        },
-        {
-            "id": 26,
-            "title": "VUE.js",
-            "icon": "bx bxl-vuejs"
-        },
-        {
-            "id": 27,
-            "title": "MySQL",
-            "icon": "bx bxs-data"
-        },
-        {
-            "id": 28,
-            "title": "VUX",
-            "icon": "bx bxl-vuejs"
-        },
-        {
-            "id": 29,
-            "title": "Nextjs",
-            "icon": "bx bxs-right-top-arrow-circle"
+            "skillsTitle": "Tools",
+            "skillsContent": [
+                {
+                    "id": 0,
+                    "title": "Adobe Photoshop",
+                    "icon": "bx bxl-adobe"
+                },
+                {
+                    "id": 1,
+                    "title": "Gulp",
+                    "icon": "bx bxs-right-top-arrow-circle"
+                },
+                {
+                    "id": 2,
+                    "title": "git/ github",
+                    "icon": "bx bxl-github"
+                },
+                {
+                    "id": 3,
+                    "title": "Docker",
+                    "icon": "bx bxl-docker"
+                },
+                {
+                    "id": 4,
+                    "title": "GraphQL",
+                    "icon": "bx bx-cog"
+                }
+            ]
         }
     ],
     "MinorSkills": [
@@ -373,7 +412,6 @@
             "preview": "https://ahmed-sadek89.github.io/AXIT/",
             "github": "https://github.com/Ahmed-Sadek89/AXIT"
         },
-        
         {
             "id": 21,
             "title": "Mobster",

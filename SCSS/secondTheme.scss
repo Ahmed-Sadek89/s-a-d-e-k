@@ -28,6 +28,9 @@
 .major{
     @extend .firstTheme;
 }
+.accordion-title {
+    border-bottom: 1px solid $bg-theme1;
+}
 .projects{
     @extend .firstTheme;
     .project{

@@ -1,26 +1,30 @@
-.projects{
-    .title{
+.projects {
+    .title {
         max-width: fit-content;
         margin: $margin * 2 auto $margin * 4 auto;
-    };
-    .project{
+    }
+
+    ;
+
+    .project {
         overflow: hidden;
         box-shadow: $box-shadow;
         display: flex;
         flex-direction: column;
-        .overlay{
+        .overlay {
             position: relative;
             overflow: hidden;
             height: 50vh;
-            &:hover{
-                .info-overlay{
+
+            &:hover {
+                .info-overlay {
                     top: 0px;
                 }
             }
-            img{
+            img {
                 width: 100%;
             }
-            .info-overlay{
+            .info-overlay {
                 position: absolute;
                 top: 400px;
                 left: 0px;
@@ -33,11 +37,13 @@
                 flex-direction: column;
                 transition: $transition;
                 line-height: 1;
-                p{
-                    @include xs{
+
+                p {
+                    @include xs {
                         font-size: $font-size;
                     }
-                    @include sm{
+
+                    @include sm {
                         font-size: $font-size-xl;
                     }
                 }

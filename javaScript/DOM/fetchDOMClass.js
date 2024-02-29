@@ -1,6 +1,6 @@
-class FetchDOM{
-    constructor(){
-        
+class FetchDOM {
+    constructor() {
+
     }
 
     errorFetching = (DOMElement) => {
@@ -31,15 +31,46 @@ class FetchDOM{
     }
 
     getSkills = (dataInJSON, DOMElement) => {
-        let mapping = dataInJSON.map(elem => {
+        let mapping = dataInJSON.map((elem) => {
+            let contents = elem.skillsContent?.map((elem) => {
+                return `
+                <div class='col-xs-12 col-sm-6 col-md-4 '>
+                    <div class='skills p-t-1 p-b-1 b-radius-md p-l-1 font-xl'>
+                        <i class='${elem.icon}' title='${elem.title}'></i>
+                        <span class='font-regular font-md m-l-1'>${elem.title}</span>
+                    </div>
+                </div>
+                `;
+            })
+
             return `
-            <div class='col-xs-12 col-sm-6 col-md-4 col-xl-3'>
-                <div class='skills p-t-1 p-b-1 b-radius-md p-l-1 font-xl'>
-                    <i class='${elem.icon}' title='${elem.title}'></i>
-                    <span class='font-regular font-md m-l-1'>${elem.title}</span>
+            <div class='col-xs-12 accordion b-radius-md m-b-1'>
+                <div class='accordion-title p-1 font-xl'>
+                    <span class='font-regular font-md'>${elem.skillsTitle}</span>
+                    <i class='bx bxs-down-arrow'></i>
+                </div>
+                <div class="accordion-body p-t-1 p-b-1" style='max-height: max-content'>
+                    <div class="container row gap-1 id='majorSkillsContents'">
+                        ${contents?.join("")}
+                    </div>
                 </div>
             </div>
             `;
+        });
+        DOMElement.innerHTML = mapping.join("")
+    }
+
+    getMinorSkills = (dataInJSON, DOMElement) => {
+        let mapping = dataInJSON.map((elem) => {
+            return `
+                <div class='col-xs-12 col-sm-6 col-md-4 '>
+                    <div class='skills p-t-1 p-b-1 b-radius-md p-l-1 font-xl'>
+                        <i class='${elem.icon}' title='${elem.title}'></i>
+                        <span class='font-regular font-md m-l-1'>${elem.title}</span>
+                    </div>
+                </div>
+                `;
+
         });
         DOMElement.innerHTML = mapping.join("")
     }
@@ -83,7 +114,7 @@ class FetchDOM{
 
         DOMElement.innerHTML = mapping.join("");
     }
-    
+
     getPhoneNumbers = (dataInJSON, DOMElement) => {
         let mapping = dataInJSON.map(elem => {
             return `
