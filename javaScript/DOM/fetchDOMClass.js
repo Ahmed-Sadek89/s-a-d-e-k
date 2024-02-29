@@ -45,7 +45,7 @@ class FetchDOM {
 
             return `
             <div class='col-xs-12 accordion'>
-                <div class='accordion-title p-1 font-xl'>
+                <div class='accordion-title p-1 font-xl b-radius-md'>
                     <span class='font-regular font-md'>${elem.skillsTitle}</span>
                     <i class='bx bxs-down-arrow'></i>
                 </div>

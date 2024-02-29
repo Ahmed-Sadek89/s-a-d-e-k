@@ -1,50 +1,55 @@
 @import 'variables';
 @import 'basics';
 
-.firstTheme{
+.firstTheme {
     background-color: $bg-theme1;
     color: $dark;
 }
-.secondTheme{
+
+.secondTheme {
     background-color: $bg-theme2;
     color: $white
 }
+
 .window-overlay {
     background: $bg-theme1;
+
     .sk-folding-cube .sk-cube:before {
         background-color: $bg-theme2;
     }
 }
-.navbar{
+
+.navbar {
     @extend .firstTheme;
-    .collapse-close{
+
+    .collapse-close {
         @extend .secondTheme;
     }
 }
-.home{
+
+.home {
     @extend .firstTheme;
 }
-.major{
+
+.major {
     @extend .firstTheme;
 }
-#majorSkills{
-    border: 1px solid  $bg-theme2;
-    
-    .accordion-title, .accordion-body {
-        border-top: 1px solid $bg-theme2;
-    }
-}
-.projects{
+
+
+.projects {
     @extend .firstTheme;
-    .project{
+
+    .project {
         border: $border-thinkness dashed $bg-theme2;
-        .overlay{
-            .info-overlay{
+
+        .overlay {
+            .info-overlay {
                 @extend .secondTheme;
             }
         }
     }
 }
-.contact{
+
+.contact {
     @extend .secondTheme
 }

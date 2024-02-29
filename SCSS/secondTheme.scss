@@ -1,51 +1,54 @@
 @import 'variables';
 @import 'basics';
 
-.firstTheme{
+.firstTheme {
     background-color: $bg-theme2;
     color: $white
 }
-.secondTheme{
+
+.secondTheme {
     background-color: $bg-theme1;
     color: $dark;
 }
 
-.navbar{
+.navbar {
     @extend .firstTheme;
-    .collapse-close{
+
+    .collapse-close {
         @extend .secondTheme;
     }
 }
+
 .window-overlay {
     background: $bg-theme2;
+
     .sk-folding-cube .sk-cube:before {
         background-color: $bg-theme1;
     }
 }
-.home{
+
+.home {
     @extend .firstTheme;
 }
-.major{
+
+.major {
     @extend .firstTheme;
 }
-#majorSkills{
-    border: 1px solid  $bg-theme1;
-    
-    .accordion-title, .accordion-body {
-        border-top: 1px solid $bg-theme1;
-    }
-}
-.projects{
+
+.projects {
     @extend .firstTheme;
-    .project{
+
+    .project {
         border: $border-thinkness dashed $bg-theme1;
-        .overlay{
-            .info-overlay{
+
+        .overlay {
+            .info-overlay {
                 @extend .secondTheme;
             }
         }
     }
 }
-.contact{
+
+.contact {
     @extend .secondTheme
 }
