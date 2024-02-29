@@ -10,16 +10,15 @@ export default function makeCustomEvent() {
     variables.allLinks.forEach(link => {
         myEvents.makeEventOnItemsInCollapse(link, variables.allLinks);
     })
-    variables.majorSkillsDOM.addEventListener('mouseover', (e) => {
-        const accordionTitle = e.target;
-        const accordionBody = e.target.nextElementSibling;
+    variables.majorSkillsDOM.addEventListener('mouseover', (event) => {
+        const accordionTitle = event.target;
+        const accordionBody = event.target.nextElementSibling;
 
-        accordionTitle.onclick = function () {
-
+        accordionTitle.onclick = function (e) {
             if (accordionBody.hasAttribute('style')) {
                 accordionBody.removeAttribute('style')
             } else {
-                accordionBody.setAttribute('style', 'max-height: 0;')
+                accordionBody.setAttribute('style', 'transition: display 0.5s ease; display: none')
             }
         }
     })
