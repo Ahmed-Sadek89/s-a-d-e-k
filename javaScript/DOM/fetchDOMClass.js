@@ -49,7 +49,7 @@ class FetchDOM {
                     <span class='font-regular font-md'>${elem.skillsTitle}</span>
                     <i class='bx bxs-down-arrow'></i>
                 </div>
-                <div class="accordion-body p-t-1 p-b-1" style='max-height: max-content'>
+                <div class="accordion-body p-t-1 p-b-1">
                     <div class="container row gap-1 id='majorSkillsContents'">
                         ${contents?.join("")}
                     </div>

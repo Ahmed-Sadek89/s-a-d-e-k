@@ -6,12 +6,14 @@
     color: inherit;
     scroll-behavior: smooth;
     transition: $transition;
+
 }
 body{
     font-family: Poppins;
     text-transform: capitalize;
     // for loading
     overflow: hidden;
+ 
 }
 a{
     text-decoration: none;
