@@ -27,8 +27,12 @@
 .major{
     @extend .firstTheme;
 }
-.accordion-body {
-    border-top: 1px solid $bg-theme2;
+#majorSkills{
+    border: 1px solid  $bg-theme2;
+    
+    .accordion-title, .accordion-body {
+        border-top: 1px solid $bg-theme2;
+    }
 }
 .projects{
     @extend .firstTheme;

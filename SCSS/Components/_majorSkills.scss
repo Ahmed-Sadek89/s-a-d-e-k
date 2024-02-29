@@ -3,42 +3,40 @@
         max-width: fit-content;
         margin: $margin * 2 auto $margin * 4 auto;
     }
-
     .skills {
         box-shadow: $box-shadow;
         display: flex;
         flex-direction: row;
     }
-    .accordion {
-        box-shadow: $box-shadow;
-
-        .accordion-title {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
-            cursor: pointer;
-            span{
-                font-weight: bold;
-            }
-            i {
-                font-size: 10px;
-            }
-        }
-
-        .accordion-body {
-            transition: display 0.5s ease;
-            display: flex;
-            flex-direction: row;
-            overflow: hidden;
-            // max-height: 0;
-            // max-height: 300px; 
-            .skills {
-                box-shadow: $box-shadow;
+    #majorSkills {
+        border-radius: 5px;
+        .accordion {
+            .accordion-title {
                 display: flex;
                 flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                cursor: pointer;
+                span {
+                    font-weight: bold;
+                }
+                i {
+                    font-size: 10px;
+                }
+            }
+            .accordion-body {
+                color: #444;
+                font-size: 14px;
+                opacity: 1;
+                height: 100%;
+                overflow: hidden;
+                transition: opacity .3s ease;
+                .skills {
+                    box-shadow: $box-shadow;
+                    display: flex;
+                    flex-direction: row;
+                }
             }
         }
     }
-
 }

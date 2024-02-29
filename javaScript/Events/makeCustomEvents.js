@@ -13,12 +13,11 @@ export default function makeCustomEvent() {
     variables.majorSkillsDOM.addEventListener('mouseover', (event) => {
         const accordionTitle = event.target;
         const accordionBody = event.target.nextElementSibling;
-
         accordionTitle.onclick = function (e) {
             if (accordionBody.hasAttribute('style')) {
                 accordionBody.removeAttribute('style')
             } else {
-                accordionBody.setAttribute('style', 'transition: display 0.5s ease; display: none')
+                accordionBody.setAttribute('style', 'opacity: 0; height: 0')
             }
         }
     })
