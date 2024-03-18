@@ -11,7 +11,7 @@ class FetchDOM {
         let mapping = dataInJSON.map(elem => {
             return `
             <a target='_blank' href='${elem.link}' class='p-r-1 font-xxl' title='${elem.title}'>
-                <i class='${elem.icon}'></i>
+                <i class='${elem.icon}' style='${elem?.style}'></i>
             </a>
             `
         })

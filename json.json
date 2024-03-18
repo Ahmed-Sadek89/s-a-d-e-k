@@ -23,6 +23,13 @@
             "link": "https://www.youtube.com/channel/UC_-4DGHnJOs-qwME8Wxqeug",
             "title": "YouTube",
             "icon": "bx bxl-youtube"
+        },
+        {
+            "id": 4,
+            "link": "mailto:ahmeamohamed161@gmail.com",
+            "title": "Gmail",
+            "icon": "bx bx-envelope",
+            "style": "color:inherit"
         }
     ],
     "problem_solving_links": [
@@ -148,6 +155,11 @@
                     "id": 8,
                     "title": "Nextjs",
                     "icon": "bx bxs-right-top-arrow-circle"
+                },
+                {
+                    "id": 9,
+                    "title": "framer motion",
+                    "icon": "bx bxs-right-top-arrow-circle"
                 }
             ]
         },
@@ -167,6 +179,11 @@
                 {
                     "id": 2,
                     "title": "JWT & Passport.js",
+                    "icon": "bx bx-transfer"
+                },
+                {
+                    "id": 3,
+                    "title": "Nest.js",
                     "icon": "bx bx-transfer"
                 }
             ]
@@ -261,6 +278,20 @@
     ],
     "Projects": [
         {
+            "id": -2,
+            "title": "Animated portfolio",
+            "image": "./images/animated_portfolio.png",
+            "preview": "https://nextjs-portfolio-seven-ecru-13.vercel.app/",
+            "github": "https://github.com/Ahmed-Sadek89/nextjs-portfolio"
+        },
+        {
+            "id": -1,
+            "title": "Tasks manegement",
+            "image": "./images/tasks_manegment.png",
+            "preview": "https://task-frontend-react-3-3-2024.vercel.app/",
+            "github": "https://github.com/Ahmed-Sadek89?tab=repositories&q=task&type=&language=&sort="
+        },
+        {
             "id": 0,
             "title": "Blog",
             "image": "./images/Lama blogpng.png",
@@ -285,7 +316,7 @@
             "id": 3,
             "title": "Node SSR_App",
             "image": "./images/node-SSR-APP.png",
-            "preview": "https://node-sadek.herokuapp.com/",
+            "preview": "https://first-node-efar.onrender.com/",
             "github": "https://github.com/Ahmed-Sadek89/node-App-SSR"
         },
         {
