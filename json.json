@@ -278,6 +278,13 @@
     ],
     "Projects": [
         {
+            "id": -3,
+            "title": "Nextjs14 Application",
+            "image": "./images/nextjs14-application.png",
+            "preview": "https://nextjs14-application.vercel.app/",
+            "github": "https://github.com/Ahmed-Sadek89/nextjs14-application"
+        },
+        {
             "id": -2,
             "title": "Animated portfolio",
             "image": "./images/animated_portfolio.png",
