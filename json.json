@@ -278,6 +278,27 @@
     ],
     "Projects": [
         {
+            "id": -6,
+            "title": "Dream",
+            "image": "./images/Booking_website.png",
+            "preview": "https://booking-website-blond-phi.vercel.app/",
+            "github": "#"
+        },
+        {
+            "id": -5,
+            "title": "frontend-mentor-intro-section-with-dropdown-navigation-ten",
+            "image": "./images/frontend-mentor-intro-section-with-dropdown-navigation-ten.png",
+            "preview": "https://frontend-mentor-intro-section-with-dropdown-navigation-ten.vercel.app/",
+            "github": "https://github.com/Ahmed-Sadek89/Frontend-Mentor-Intro-section-with-dropdown-navigation"
+        },
+        {
+            "id": -4,
+            "title": "frontend-mentor-loopstudios-landing-page-two",
+            "image": "./images/frontend-mentor-loopstudios-landing-page-two.png",
+            "preview": "https://frontend-mentor-loopstudios-landing-page-two.vercel.app/",
+            "github": "https://github.com/Ahmed-Sadek89/Frontend-Mentor-Loopstudios-landing-page"
+        },
+        {
             "id": -3,
             "title": "Nextjs14 Application",
             "image": "./images/nextjs14-application.png",
