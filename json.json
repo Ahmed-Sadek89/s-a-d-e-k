@@ -278,6 +278,27 @@
     ],
     "Projects": [
         {
+            "id": -9,
+            "title": "Auto Parts",
+            "image": "./images/Auto-Parts.png",
+            "preview": "https://cars-website-rho.vercel.app/",
+            "github": "#"
+        },
+        {
+            "id": -8,
+            "title": "Health Care",
+            "image": "./images/Health-Care.png",
+            "preview": "https://medical-conferance.vercel.app/en",
+            "github": "#"
+        },
+        {
+            "id": -7,
+            "title": "Dream | Dashboard",
+            "image": "./images/Dashboard2.png",
+            "preview": "https://booking-dashboard-react.vercel.app/",
+            "github": "#"
+        },
+        {
             "id": -6,
             "title": "Dream",
             "image": "./images/Booking_website.png",
