@@ -278,6 +278,13 @@
     ],
     "Projects": [
         {
+            "id": -10,
+            "title": "Trello clone",
+            "image": "./images/trello_clone.png",
+            "preview": "https://app.onprojecthq.com/",
+            "github": "#"
+        },
+        {
             "id": -9,
             "title": "Auto Parts",
             "image": "./images/Auto-Parts.png",
