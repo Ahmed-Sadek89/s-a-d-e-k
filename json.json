@@ -278,6 +278,13 @@
     ],
     "Projects": [
         {
+            "id": -11,
+            "title": "Sadek Portfoilo Dashboard",
+            "image": "./images/Sadek_Portolio_Dashboard.png",
+            "preview": "https://sadek-portfolio-dashboard.vercel.app/",
+            "github": "https://github.com/Ahmed-Sadek89/sadek-portfolio-dashboard"
+        },
+        {
             "id": -10,
             "title": "Trello clone",
             "image": "./images/trello_clone.png",
