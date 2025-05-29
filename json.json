@@ -279,6 +279,13 @@
     "Projects": [
         {
             "id": -11,
+            "title": "Elmomaiz",
+            "image": "./images/elmomaiz.png",
+            "preview": "https://elmomaiz.com/",
+            "github": "#"
+        },
+        {
+            "id": -11,
             "title": "Sadek Portfoilo Dashboard",
             "image": "./images/Sadek_Portolio_Dashboard.png",
             "preview": "https://sadek-portfolio-dashboard.vercel.app/",
@@ -293,9 +300,9 @@
         },
         {
             "id": -9,
-            "title": "Auto Parts",
+            "title": "3arbitk",
             "image": "./images/Auto-Parts.png",
-            "preview": "https://cars-website-rho.vercel.app/",
+            "preview": "https://www.3arbitk.com/en",
             "github": "#"
         },
         {
