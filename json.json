@@ -277,15 +277,43 @@
         }
     ],
     "Projects": [
-        {
-            "id": -11,
-            "title": "Ibal books",
-            "image": "./images/Ibal.png",
-            "preview": "https://books.ibalbooks.com/",
+         {
+            "id": -17,
+            "title": "Rowad AlDuad",
+            "image": "./images/Rowad.png",
+            "preview": "https://rwadaldad.com/",
             "github": "#"
         },
         {
-            "id": -11,
+            "id": -16,
+            "title": "Hawas interactive books",
+            "image": "./images/hawas.png",
+            "preview": "https://hawas.website/",
+            "github": "#"
+        },
+        {
+            "id": -15,
+            "title": "Dorosek",
+            "image": "./images/Dorosek.png",
+            "preview": "https://dorosk-latest.vercel.app/en",
+            "github": "#"
+        },
+        {
+            "id": -14,
+            "title": "Ecommerceplatform",
+            "image": "./images/ecommerceplatform.png",
+            "preview": "https://ecommerceplatform.app/",
+            "github": "#"
+        },
+        {
+            "id": -13,
+            "title": "IBook",
+            "image": "./images/IBook.png",
+            "preview": "https://book.ibook.ps/home",
+            "github": "#"
+        },
+        {
+            "id": -12,
             "title": "Elmomaiz",
             "image": "./images/elmomaiz.png",
             "preview": "https://elmomaiz.com/",
@@ -302,7 +330,7 @@
             "id": -10,
             "title": "Trello clone",
             "image": "./images/trello_clone.png",
-            "preview": "https://app.onprojecthq.com/",
+            "preview": "https://trello-livid.vercel.app/sign-in",
             "github": "#"
         },
         {
