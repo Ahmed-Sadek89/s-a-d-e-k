@@ -14,7 +14,7 @@
         },
         {
             "id": 2,
-            "link": "https://drive.google.com/file/d/1eXyQbKRrDS2oNrIEvaxKTQJf3l1vHbKv/view",
+            "link": "https://drive.google.com/file/d/1oE3shNJF1lAukd2PhErSHzdJ5u_6L0T8/view",
             "title": "Resume",
             "icon": "bx bxs-file"
         },
@@ -277,6 +277,13 @@
         }
     ],
     "Projects": [
+         {
+            "id": -15,
+            "title": "Digital Car",
+            "image": "./images/Digitalcar-image.png",
+            "preview": "https://www.digitalcar.sa/ar",
+            "github": "#"
+        },
          {
             "id": -17,
             "title": "Rowad AlDuad",
